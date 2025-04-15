@@ -22,6 +22,7 @@ Role: Create medallion layers (raw → staging (materialized views) → mart) fo
 What: Airflow DAG that orchestrates extraction, loading, and transformation.
 Role: Automate and monitor the execution of the entire pipeline.
 
+
 6. Local Development with Docker Compose 🐳
 What: Docker Compose configuration for running a local Airflow instance.
 Role: Simplify development and testing of the pipeline.
