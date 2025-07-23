@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.env
+
+# Secrets
+secrets
+
+# Package files
+poetry.lock
+pyproject.toml
+
+# dbt
+dbt/logs/
+dbt/target/
+dbt/.dbt/
+
+# Airflow
+airflow/logs/
+airflow/tmp/
+*.pid
+
+# Docker
+*.log
+.dockerignore
+Dockerfile
+docker-compose.yml
