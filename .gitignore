@@ -25,3 +25,6 @@ airflow/tmp/
 .dockerignore
 Dockerfile
 docker-compose.yml
+
+# GCP Keys
+gcp_keys/
